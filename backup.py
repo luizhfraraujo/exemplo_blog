@@ -1,6 +1,6 @@
 import pypyodbc
 
-class main():
+def backup():
   __dbname = ""
   __destinationpath = ""
   __driver = ""
@@ -16,4 +16,4 @@ class main():
     pass
 
 if __name__ == '__main__':
-  main()
+  backup()
